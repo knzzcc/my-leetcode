@@ -1,0 +1,14 @@
+{
+    "problems.decorations.enabled": false,
+    "workbench.colorCustomizations": {
+        "editorError.foreground":   "#00000000",
+        "editorWarning.foreground": "#00000000",
+        "editorInfo.foreground":    "#00000000"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "java.completion.enabled": false,
+    // "accessibility.verbosity.inlineCompletions": true,
+    // "java.completion.postfix.enabled": true,
+    "editor.wordBasedSuggestions": false,
+    "editor.minimap.enabled": false
+}
