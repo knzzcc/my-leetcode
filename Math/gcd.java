@@ -34,3 +34,29 @@
 //     a^p%m=a%m "p很大的時候可以用" 
 
 // 數論符號 https://blog.csdn.net/qq_62729874/article/details/127024387
+// https://github.com/ThreeSR/LeetCode/blob/main/Subdocument/Math%20Theory.md
+
+// https://applenob.github.io/algrithom/leetcode_python/
+
+// https://zhuanlan.zhihu.com/p/635478302
+
+
+// 周賽 珂朵莉
+// LCA 樹上倍增
+// https://leetcode.cn/circle/discuss/BzaVg8/
+// https://chengzhaoxi.xyz/63dec3e.html
+
+// 周賽 數論 組合 楊輝三角形 逆元 費馬小定理
+// https://leetcode.cn/circle/discuss/vSxBlo/
+// https://leetcode.cn/problems/count-k-subsequences-of-a-string-with-maximum-beauty/solutions/2424876/zu-he-shu-xue-pythonjavacgo-by-endlessch-whff/
+
+// 周賽 離線算法
+// https://leetcode.cn/circle/discuss/9n7Hnx/
+// https://leetcode.cn/circle/discuss/rw1Mp3/
+
+// 刷算法题必备的数学考点汇总
+// https://zhuanlan.zhihu.com/p/301338035
+// https://zhuanlan.zhihu.com/p/342610561
+// https://chengzhaoxi.xyz/9c42293b.html
+
+// 三分查找 三分搜 三分算法

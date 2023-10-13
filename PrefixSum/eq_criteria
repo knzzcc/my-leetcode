@@ -1,0 +1,8 @@
+i < j, j - i != nums[j] - nums[i]
+
+i < j, nums[i] - i != nums[j] - j
+!= 包含 可能 >，可能 < ，因此可以等同'>', '<' 做運算
+
+sum[i] ^ sum[i - m] = sum[i - m] ^ sum[i - 2m]
+
+XOR sum[i - m] ==> sum[i] = sum[i - 2m]

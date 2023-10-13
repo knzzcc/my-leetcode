@@ -1,17 +1,11 @@
 class Solution {
-    public void sortColors(int[] nums) {
-        int n = nums.length;
-        int l = 0, r = n - 1, idx = 0;
-        while (idx <= r) {
-            if (nums[idx] == 0) swap(nums, l++, idx++);
-            else if (nums[idx] == 1) idx++;
-            else swap(nums, idx, r--);
+    public int majorityElement(int[] nums) {
+        int x = 0, votes = 0;
+        for (int num : nums){
+            if (votes == 0) x = num;
+            votes += num == x ? 1 : -1;
         }
-    }
-    void swap(int[] nums, int i, int j) {
-        int c = nums[i];
-        nums[i] = nums[j];
-        nums[j] = c;
+        return x;
     }
 }
 
