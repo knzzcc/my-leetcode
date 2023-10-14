@@ -43,3 +43,5 @@ public class MergeSort {
 }
 
 //  逆序對
+//  int[] a = {5, 3, 2}
+//  滿足 i < j, a[i] > a[j]

@@ -15,6 +15,8 @@ public class extGcd {
         System.out.println("y = " + gcd[2]);
     }
 }
+
+//int[] gcd = {gcd(a, b), x, y}
 // Bezout 係數是兩個整數 a 和 b 的整數解 x 和 y 滿足Bezout等式 ax + by = gcd(a, b) 的係數
 // gcd(10, 15) = 5
 // x = -1

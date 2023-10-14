@@ -52,3 +52,5 @@ Prime **
 具體method實作  
 整體算法流程  
 
+常用API
+Arrays, Collections, Compator, PriorityQueue, Random, Math
