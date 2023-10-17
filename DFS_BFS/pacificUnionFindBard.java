@@ -32,7 +32,10 @@ class pacificUnionFindBard {
         n = g[0].length;
         tot = m * n;
         S = tot + 1;
-        T = tot + 2; // 初始化變量 m、n、tot、S、T S/T不一定要+1/+2，weiwei的200題UF解法就是圖大小而已
+        T = tot + 2; // 初始化變量 m、n、tot、S、T 
+        //S/T不一定要+1/+2， 
+        //weiwei的200題UF解法就是圖大小而已，題目不太一樣，最好再確認一下
+        //S/T基本上代表太平洋和大西洋，因為2維陣列壓到1維(UnionFind的parent陣列，確認聯通性，'洋'的編號會超過圖的點，所以一個+1，一個+2)
         for (int i = 0; i <= T; i++)
             p1[i] = p2[i] = i; // 初始化父陣列 p1 和 p2
         for (int i = 0; i < m; i++) { // 遍歷矩陣所有格子
