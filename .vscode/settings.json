@@ -10,5 +10,9 @@
     // "accessibility.verbosity.inlineCompletions": true,
     // "java.completion.postfix.enabled": true,
     "editor.wordBasedSuggestions": false,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "comments": "",
+        "textMateRules": []
+    }
 }

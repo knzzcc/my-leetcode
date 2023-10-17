@@ -66,7 +66,17 @@ https://github.com/FangYuan33/LeetCode
 
 
 子集三法
-island
+https://www.bilibili.com/video/BV1mG4y1A7Gu/?vd_source=2d7c75121b11910d9eb838c1c85d45d5
+island 200/417
 經典題
 
-01矩陣最小正方形
+221. 01矩陣最小正方形
+85. 最大矩形
+
+Bard在給註釋和簡化程式碼上面能力不錯，但簡化後要試著跑跑看，避免似是而非
+還可問Bard某個數據結構和演算法的具體用途
+
+
+    int getIdx(int x, int y) { // 定義一個方法 getIdx，用於將二維座標轉換為一維索引
+        return x * n + y; // 將二維座標轉換為一維索引
+    }

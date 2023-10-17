@@ -22,3 +22,6 @@ private void dfs(int[][] grid, int i, int j) {
 
 //DFS檢查可以在內也可以在外，通常寫在裡面
 //二分圖的時候visited[]才會寫在外面，因為會採取不同的行動
+
+//或者參考宮水 DFS/BFS/UnionFind
+//https://leetcode.cn/problems/pacific-atlantic-water-flow/solutions/1452108/by-ac_oier-do7d/
