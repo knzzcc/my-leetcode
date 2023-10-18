@@ -39,6 +39,25 @@ class Solution {
     }
 }
 
+//遞迴寫法
+void dfs(int x, int y, boolean[][] res) {
+    ArrayDeque<int[]> queue = new ArrayDeque<>();
+    queue.addFirst(new int[]{x, y});
+    while (!queue.isEmpty()) {
+        int[] cur = queue.pollFirst();
+        int nx = cur[0], ny = cur[1];
+        if (res[nx][ny]) continue;
+        res[nx][ny] = true;
+        for (int[] dir : dirs) {
+            int newX = nx + dir[0], newY = ny + dir[1];
+            if (newX < 0 || newX >= m || newY < 0 || newY >= n) continue;
+            if (res[newX][newY] || g[newX][newY] < g[nx][ny]) continue;
+            queue.addFirst(new int[]{newX, newY});
+        }
+    }
+}
+
+
 作者：宫水三叶
 链接：https://leetcode.cn/problems/pacific-atlantic-water-flow/solutions/1452108/by-ac_oier-do7d/
 来源：力扣（LeetCode）

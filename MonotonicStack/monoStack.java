@@ -19,7 +19,12 @@ int[] nextGreaterElement(int[] nums) {
     return res;
 }
 
+
+//下一個 = 逆序
+//大於 = 棧內<=(會被彈開) 
+//大於等於 = 棧內<(會被彈開)
 //下一个大于等于的元素
+
 // 注意：我们把 s.peek() == nums[i] 的元素留下了
 while (!s.isEmpty() && s.peek() < nums[i]) {
     // 矮个起开，反正也被挡着了

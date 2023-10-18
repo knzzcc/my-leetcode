@@ -80,3 +80,5 @@ Bard在給註釋和簡化程式碼上面能力不錯，但簡化後要試著跑�
     int getIdx(int x, int y) { // 定義一個方法 getIdx，用於將二維座標轉換為一維索引
         return x * n + y; // 將二維座標轉換為一維索引
     }
+
+leetcode 73
