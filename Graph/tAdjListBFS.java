@@ -46,3 +46,8 @@ class Graph {
         graph.bfs(0);
     }
 }
+
+/*
+使用list表示visited集合的BFS算法與使用set表示visited集合的BFS算法的效率基本相同。
+但是，使用list表示visited集合的BFS算法在某些情況下可能會更快，例如在BFS算法需要不斷地訪問隊列中的元素的情況下
+ */
