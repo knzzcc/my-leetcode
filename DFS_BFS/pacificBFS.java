@@ -32,7 +32,7 @@ class Solution {
         return ans;
     }
     int[][] dirs = new int[][]{{1,0},{-1,0},{0,1},{0,-1}};
-    void bfs(Deque<int[]> d, boolean[][] res) {
+    void bfs(Deque<int[]> d, boolean[][] res) { //多源寫法
         while (!d.isEmpty()) {
             int[] info = d.pollFirst();
             int x = info[0], y = info[1], t = g[x][y];

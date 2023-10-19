@@ -33,6 +33,7 @@ public class Solution {
     private void bfs(int i, int j) {
         Queue<Integer> queue = new LinkedList<>();
         queue.offer(i * cols + j);
+        // int getIdx(int x, int y) {return x * n + y;} // 將二維座標轉換為一維索引
         // 注意：这里要标记上已经访问过
         visited[i][j] = true;
         while (!queue.isEmpty()) {

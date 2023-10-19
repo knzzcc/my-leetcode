@@ -41,10 +41,10 @@ class Solution {
 
 //遞迴寫法
 void dfs(int x, int y, boolean[][] res) {
-    ArrayDeque<int[]> queue = new ArrayDeque<>();
-    queue.addFirst(new int[]{x, y});
+    ArrayDeque<int[]> st = new ArrayDeque<>();
+    st.addFirst(new int[]{x, y});
     while (!queue.isEmpty()) {
-        int[] cur = queue.pollFirst();
+        int[] cur = st.pollFirst();
         int nx = cur[0], ny = cur[1];
         if (res[nx][ny]) continue;
         res[nx][ny] = true;
