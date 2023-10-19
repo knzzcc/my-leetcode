@@ -47,6 +47,30 @@ class Solution {
     }
 }
 
+/*
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            if (i == m - 1 || j == n - 1) {
+                res2[i][j] = true;
+                d2.addLast(new int[]{i, j});
+            }
+        }
+    }
+
+    相當於
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            if (i == m - 1 || j == n - 1) {
+                res2[i][j] = true;
+                bfs(i, j); 是一樣的
+            }
+        }
+    }
+
+    BFS才可以這樣，多源BFS可以先把起點都加入queue再啟動
+    但DFS就不行
+ */
+
 作者：宫水三叶
 链接：https://leetcode.cn/problems/pacific-atlantic-water-flow/solutions/1452108/by-ac_oier-do7d/
 来源：力扣（LeetCode）
