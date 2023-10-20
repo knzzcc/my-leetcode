@@ -83,3 +83,9 @@ Bard在給註釋和簡化程式碼上面能力不錯，但簡化後要試著跑�
     訪問過 if(vistied[i])
     沒訪問過 if(!visited[i])
 leetcode 73
+
+
+LinkedList vs ArrayList
+
+ArrayDeque vs LinedList
+(Array實現的雙端對列)
